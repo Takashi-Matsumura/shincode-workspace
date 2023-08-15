@@ -14,14 +14,17 @@ const Navbar = () => {
           <ul className="flex space-x-4">
             <>
               <Link
-                href={`/profile/userId`}
-                className="bg-white text-gray-900 py-2 px-3 rounded-lg font-medium"
+                href={`/calendar`}
+                className="rounded border-x border-y border-gray-400 bg-gray-700 px-3 py-2 text-white hover:bg-gray-500"
               >
                 プロフィール
               </Link>
-              <button className="bg-white text-gray-900 py-2 px-3 rounded-lg font-medium">
+              <Link
+                href={`/`}
+                className="rounded border-x border-y border-gray-400 bg-gray-700 px-3 py-2 text-white hover:bg-gray-500"
+              >
                 ログアウト
-              </button>
+              </Link>
             </>
           </ul>
         </nav>
