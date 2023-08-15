@@ -1,10 +1,12 @@
 import React from "react";
 import Post from "./Post";
+import TitleHeader from "./TitleHeader";
 
 const Timeline = () => {
   return (
     <div className="min-h-screen bg-gray-100">
-      <main className="container mx-auto py-4">
+      <TitleHeader />
+      {/* <main className="container mx-auto py-4">
         <div className="bg-white shadow-md rounded p-4 mb-4">
           <form>
             <textarea
@@ -19,7 +21,7 @@ const Timeline = () => {
             </button>
           </form>
         </div>
-      </main>
+      </main> */}
       <Post />
       <Post />
       <Post />
