@@ -7,7 +7,7 @@ export default async function Home() {
 
   return (
     <div>
-      <Timeline />
+      <Timeline timeline={timeline} />
     </div>
   );
 }
