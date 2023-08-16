@@ -20,7 +20,7 @@ const TitleHeader = () => {
       <div className="pr-4">
         <div>
           <Link
-            href={`/calendar`}
+            href={`/fullcalendar`}
             className="rounded border-black px-3 py-2 hover:bg-gray-500"
           >
             カレンダー

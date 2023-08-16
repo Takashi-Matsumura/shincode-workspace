@@ -31,7 +31,7 @@ const page = () => {
       <Calendar
         className="h-full"
         localizer={localizer}
-        events={eventStyle}
+        //events={eventStyle}
         startAccessor="start"
         endAccessor="end"
         style={{ height: 500 }}
