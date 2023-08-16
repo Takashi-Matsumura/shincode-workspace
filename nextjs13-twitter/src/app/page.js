@@ -1,6 +1,10 @@
 import Timeline from "./components/Timeline";
+import { getAll } from "@/api";
 
-export default function Home() {
+export default async function Home() {
+  const timeline = await getAll();
+  console.log(timeline);
+
   return (
     <div>
       <Timeline />
