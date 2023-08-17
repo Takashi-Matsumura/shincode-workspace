@@ -9,7 +9,7 @@ const TitleHeader = () => {
           href={`/`}
           className="rounded border-black px-3 py-2 hover:bg-gray-500"
         >
-          私のサポート
+          {/* 私のサポート */}
         </Link>
         <div className="flex items-center py-2">
           <p>◀</p>
@@ -22,9 +22,7 @@ const TitleHeader = () => {
           <Link
             href={`/fullcalendar`}
             className="rounded border-black px-3 py-2 hover:bg-gray-500"
-          >
-            カレンダー
-          </Link>
+          ></Link>
         </div>
         <div className="flex py-2 space-x-1">
           <button className="w-10 h-10 rounded-full px-1 py-1 bg-gray-100 hover:bg-gray-300">
